@@ -1,0 +1,255 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Darryn\\source\\repos\\task-api-assessment\\Task.API.Assessment\\Tasks.API\\Tasks.API\\Tasks.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Darryn\\source\\repos\\task-api-assessment\\Task.API.Assessment\\Tasks.API\\Tasks.API\\Tasks.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Darryn\\source\\repos\\task-api-assessment\\Task.API.Assessment\\Tasks.API\\Tasks.API\\Tasks.API.csproj",
+        "projectName": "Tasks.API",
+        "projectPath": "C:\\Users\\Darryn\\source\\repos\\task-api-assessment\\Task.API.Assessment\\Tasks.API\\Tasks.API\\Tasks.API.csproj",
+        "packagesPath": "C:\\Users\\Darryn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Darryn\\source\\repos\\task-api-assessment\\Task.API.Assessment\\Tasks.API\\Tasks.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Darryn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Darryn\\source\\repos\\task-api-assessment\\Task.API.Assessment\\Tasks.API\\Tasks.Application\\Tasks.Application.csproj": {
+                "projectPath": "C:\\Users\\Darryn\\source\\repos\\task-api-assessment\\Task.API.Assessment\\Tasks.API\\Tasks.Application\\Tasks.Application.csproj"
+              },
+              "C:\\Users\\Darryn\\source\\repos\\task-api-assessment\\Task.API.Assessment\\Tasks.API\\Tasks.Domain\\Tasks.Domain.csproj": {
+                "projectPath": "C:\\Users\\Darryn\\source\\repos\\task-api-assessment\\Task.API.Assessment\\Tasks.API\\Tasks.Domain\\Tasks.Domain.csproj"
+              },
+              "C:\\Users\\Darryn\\source\\repos\\task-api-assessment\\Task.API.Assessment\\Tasks.API\\Tasks.Infrastructure\\Tasks.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Darryn\\source\\repos\\task-api-assessment\\Task.API.Assessment\\Tasks.API\\Tasks.Infrastructure\\Tasks.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Darryn\\source\\repos\\task-api-assessment\\Task.API.Assessment\\Tasks.API\\Tasks.Application\\Tasks.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Darryn\\source\\repos\\task-api-assessment\\Task.API.Assessment\\Tasks.API\\Tasks.Application\\Tasks.Application.csproj",
+        "projectName": "Tasks.Application",
+        "projectPath": "C:\\Users\\Darryn\\source\\repos\\task-api-assessment\\Task.API.Assessment\\Tasks.API\\Tasks.Application\\Tasks.Application.csproj",
+        "packagesPath": "C:\\Users\\Darryn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Darryn\\source\\repos\\task-api-assessment\\Task.API.Assessment\\Tasks.API\\Tasks.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Darryn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Darryn\\source\\repos\\task-api-assessment\\Task.API.Assessment\\Tasks.API\\Tasks.Domain\\Tasks.Domain.csproj": {
+                "projectPath": "C:\\Users\\Darryn\\source\\repos\\task-api-assessment\\Task.API.Assessment\\Tasks.API\\Tasks.Domain\\Tasks.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Darryn\\source\\repos\\task-api-assessment\\Task.API.Assessment\\Tasks.API\\Tasks.Domain\\Tasks.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Darryn\\source\\repos\\task-api-assessment\\Task.API.Assessment\\Tasks.API\\Tasks.Domain\\Tasks.Domain.csproj",
+        "projectName": "Tasks.Domain",
+        "projectPath": "C:\\Users\\Darryn\\source\\repos\\task-api-assessment\\Task.API.Assessment\\Tasks.API\\Tasks.Domain\\Tasks.Domain.csproj",
+        "packagesPath": "C:\\Users\\Darryn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Darryn\\source\\repos\\task-api-assessment\\Task.API.Assessment\\Tasks.API\\Tasks.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Darryn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Darryn\\source\\repos\\task-api-assessment\\Task.API.Assessment\\Tasks.API\\Tasks.Infrastructure\\Tasks.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Darryn\\source\\repos\\task-api-assessment\\Task.API.Assessment\\Tasks.API\\Tasks.Infrastructure\\Tasks.Infrastructure.csproj",
+        "projectName": "Tasks.Infrastructure",
+        "projectPath": "C:\\Users\\Darryn\\source\\repos\\task-api-assessment\\Task.API.Assessment\\Tasks.API\\Tasks.Infrastructure\\Tasks.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Darryn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Darryn\\source\\repos\\task-api-assessment\\Task.API.Assessment\\Tasks.API\\Tasks.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Darryn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Darryn\\source\\repos\\task-api-assessment\\Task.API.Assessment\\Tasks.API\\Tasks.Domain\\Tasks.Domain.csproj": {
+                "projectPath": "C:\\Users\\Darryn\\source\\repos\\task-api-assessment\\Task.API.Assessment\\Tasks.API\\Tasks.Domain\\Tasks.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

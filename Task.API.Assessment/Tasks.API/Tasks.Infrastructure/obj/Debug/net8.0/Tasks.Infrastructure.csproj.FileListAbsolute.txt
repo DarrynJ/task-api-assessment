@@ -1,0 +1,16 @@
+C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.Infrastructure\bin\Debug\net8.0\Tasks.Infrastructure.deps.json
+C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.Infrastructure\bin\Debug\net8.0\Tasks.Infrastructure.dll
+C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.Infrastructure\bin\Debug\net8.0\Tasks.Infrastructure.pdb
+C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.Infrastructure\obj\Debug\net8.0\Tasks.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.Infrastructure\obj\Debug\net8.0\Tasks.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.Infrastructure\obj\Debug\net8.0\Tasks.Infrastructure.AssemblyInfo.cs
+C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.Infrastructure\obj\Debug\net8.0\Tasks.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.Infrastructure\obj\Debug\net8.0\Tasks.Infrastructure.sourcelink.json
+C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.Infrastructure\obj\Debug\net8.0\Tasks.Infrastructure.dll
+C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.Infrastructure\obj\Debug\net8.0\refint\Tasks.Infrastructure.dll
+C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.Infrastructure\obj\Debug\net8.0\Tasks.Infrastructure.pdb
+C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.Infrastructure\obj\Debug\net8.0\ref\Tasks.Infrastructure.dll
+C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.Infrastructure\bin\Debug\net8.0\Tasks.Domain.dll
+C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.Infrastructure\bin\Debug\net8.0\Tasks.Domain.pdb
+C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.Infrastructure\obj\Debug\net8.0\Tasks.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.Infrastructure\obj\Debug\net8.0\Tasks.Infrastructure.csproj.CopyComplete
