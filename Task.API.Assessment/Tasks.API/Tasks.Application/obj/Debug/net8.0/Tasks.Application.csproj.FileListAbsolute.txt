@@ -1,0 +1,16 @@
+C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.Application\bin\Debug\net8.0\Tasks.Application.deps.json
+C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.Application\bin\Debug\net8.0\Tasks.Application.dll
+C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.Application\bin\Debug\net8.0\Tasks.Application.pdb
+C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.Application\bin\Debug\net8.0\Tasks.Domain.dll
+C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.Application\bin\Debug\net8.0\Tasks.Domain.pdb
+C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.Application\obj\Debug\net8.0\Tasks.Application.csproj.AssemblyReference.cache
+C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.Application\obj\Debug\net8.0\Tasks.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.Application\obj\Debug\net8.0\Tasks.Application.AssemblyInfoInputs.cache
+C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.Application\obj\Debug\net8.0\Tasks.Application.AssemblyInfo.cs
+C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.Application\obj\Debug\net8.0\Tasks.Application.csproj.CoreCompileInputs.cache
+C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.Application\obj\Debug\net8.0\Tasks.Application.sourcelink.json
+C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.Application\obj\Debug\net8.0\Tasks.Application.csproj.CopyComplete
+C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.Application\obj\Debug\net8.0\Tasks.Application.dll
+C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.Application\obj\Debug\net8.0\refint\Tasks.Application.dll
+C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.Application\obj\Debug\net8.0\Tasks.Application.pdb
+C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.Application\obj\Debug\net8.0\ref\Tasks.Application.dll
