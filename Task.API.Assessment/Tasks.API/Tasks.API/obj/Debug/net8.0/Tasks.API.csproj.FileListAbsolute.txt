@@ -14,6 +14,7 @@ C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\T
 C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.API\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
 C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
 C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.API\bin\Debug\net8.0\Microsoft.Identity.Client.dll
@@ -78,4 +79,3 @@ C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\T
 C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.API\obj\Debug\net8.0\Tasks.API.pdb
 C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.API\obj\Debug\net8.0\Tasks.API.genruntimeconfig.cache
 C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.API\obj\Debug\net8.0\ref\Tasks.API.dll
-C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
