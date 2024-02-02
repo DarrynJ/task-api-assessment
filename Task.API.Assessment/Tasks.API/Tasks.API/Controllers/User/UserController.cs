@@ -3,6 +3,10 @@ using System.Transactions;
 using Tasks.Domain.Common.Interfaces;
 using Tasks.Application.User.Models;
 using Tasks.Application.Interfaces.User;
+using System;
+using Microsoft.AspNetCore.Http;
+using System.Threading.Tasks;
+using System.Threading;
 
 namespace Tasks.API.Controllers.User
 {
