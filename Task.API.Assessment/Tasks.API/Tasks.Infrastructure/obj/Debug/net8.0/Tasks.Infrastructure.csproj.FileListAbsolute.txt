@@ -14,3 +14,5 @@ C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\T
 C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.Infrastructure\bin\Debug\net8.0\Tasks.Domain.pdb
 C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.Infrastructure\obj\Debug\net8.0\Tasks.Infrastructure.csproj.AssemblyReference.cache
 C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.Infrastructure\obj\Debug\net8.0\Tasks.Infrastructure.csproj.CopyComplete
+C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.Infrastructure\bin\Debug\net8.0\Tasks.Infrastructure.runtimeconfig.json
+C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.Infrastructure\obj\Debug\net8.0\Tasks.Infrastructure.genruntimeconfig.cache
