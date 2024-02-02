@@ -1,0 +1,12 @@
+C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.Domain\bin\Debug\net8.0\Tasks.Domain.deps.json
+C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.Domain\bin\Debug\net8.0\Tasks.Domain.dll
+C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.Domain\bin\Debug\net8.0\Tasks.Domain.pdb
+C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.Domain\obj\Debug\net8.0\Tasks.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.Domain\obj\Debug\net8.0\Tasks.Domain.AssemblyInfoInputs.cache
+C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.Domain\obj\Debug\net8.0\Tasks.Domain.AssemblyInfo.cs
+C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.Domain\obj\Debug\net8.0\Tasks.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.Domain\obj\Debug\net8.0\Tasks.Domain.sourcelink.json
+C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.Domain\obj\Debug\net8.0\Tasks.Domain.dll
+C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.Domain\obj\Debug\net8.0\refint\Tasks.Domain.dll
+C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.Domain\obj\Debug\net8.0\Tasks.Domain.pdb
+C:\Users\Darryn\source\repos\task-api-assessment\Task.API.Assessment\Tasks.API\Tasks.Domain\obj\Debug\net8.0\ref\Tasks.Domain.dll

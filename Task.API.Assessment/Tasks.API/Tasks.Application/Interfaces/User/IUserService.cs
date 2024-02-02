@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Tasks.Domain.Services
 {
-    public interface IUserService
+    public interface IUserService : IDisposable
     {
         Task<string> LoginUser(string username, string password);
     }
