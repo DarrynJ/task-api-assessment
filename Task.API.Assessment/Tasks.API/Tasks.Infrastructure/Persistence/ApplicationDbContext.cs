@@ -1,10 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Tasks.Domain.Common.Interfaces;
+using Tasks.Domain.Entities;
+using Tasks.Infrastructure.Persistence.Configurations;
 
 namespace Tasks.Infrastructure.Persistence
 {
@@ -13,5 +10,30 @@ namespace Tasks.Infrastructure.Persistence
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         { }
+
+        public DbSet<Domain.Entities.Task> Tasks { get; set; }
+        public DbSet<User> Users { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            ConfigureModel(modelBuilder);
+            modelBuilder.ApplyConfiguration(new TaskConfiguration());
+            modelBuilder.ApplyConfiguration(new UserConfiguration());
+        }
+
+        private void ConfigureModel(ModelBuilder modelBuilder)
+        {
+            // Seed data
+            // https://rehansaeed.com/migrating-to-entity-framework-core-seed-data/
+            /* Eg.
+            
+            modelBuilder.Entity<Car>().HasData(
+            new Car() { CarId = 1, Make = "Ferrari", Model = "F40" },
+            new Car() { CarId = 2, Make = "Ferrari", Model = "F50" },
+            new Car() { CarId = 3, Make = "Lamborghini", Model = "Countach" });
+            */
+        }
     }
 }

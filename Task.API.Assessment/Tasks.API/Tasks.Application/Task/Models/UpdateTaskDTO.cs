@@ -4,20 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tasks.Domain.Entities
+namespace Tasks.Application.Task.Models
 {
-    public class Task
+    public class UpdateTaskDTO
     {
-        public Task(string title, string description, Guid assignee, DateTime dueDate)
-        {
-            Id = Guid.NewGuid();
-
-            Title = title;
-            Description = description;
-            Assignee = assignee;
-            DueDate = dueDate;
-        }
-
         public Guid Id { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }
