@@ -6,12 +6,8 @@ using System.Threading.Tasks;
 
 namespace Tasks.Domain.Repositories.Tasks
 {
-    public interface ITaskRepository : IEFRepository<Task, Task>
+    public interface ITaskRepository : IEFRepository<Domain.Entities.Task, Domain.Entities.Task>
     {
-        Task<Task> CreateTask(string title, string description, Guid assignee, DateTime dueDate);
-        Task<Task> GetTask(Guid id);
-        Task<List<Task>> GetAllTasks();
-        Task<bool> DeleteTask(Guid id);
-        Task<Task> UpdateTask(Guid id, Task task);
+
     }
 }

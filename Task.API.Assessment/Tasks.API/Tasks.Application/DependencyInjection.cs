@@ -4,8 +4,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Tasks.Application.Implementation.Task;
 using Tasks.Application.Implementation.User;
-using Tasks.Domain.Services;
+using Tasks.Application.Interfaces.Task;
+using Tasks.Application.Interfaces.User;
 
 namespace Tasks.Application
 {
@@ -14,6 +16,7 @@ namespace Tasks.Application
         public static IServiceCollection AddApplication(this IServiceCollection services)
         {
             services.AddTransient<IUserService, UserService>();
+            services.AddTransient<ITaskService, TaskService>();
 
             return services;
         }

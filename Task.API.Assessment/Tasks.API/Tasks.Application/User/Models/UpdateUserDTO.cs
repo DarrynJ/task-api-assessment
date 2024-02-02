@@ -4,18 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tasks.Domain.Entities
+namespace Tasks.Application.User.Models
 {
-    public class User
+    public class UpdateUserDTO
     {
-        public User(string username, string emailAddress, string password)
-        {
-            Id = Guid.NewGuid();
-            Username = username;
-            EmailAddress = emailAddress;
-            Password = password;
-        }
-
         public Guid Id { get; set; }
         public string Username { get; set; }
         public string EmailAddress { get; set; }
