@@ -53,9 +53,7 @@ namespace Tasks.API.Controllers.User
         [ProducesResponseType(typeof(bool), StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult<bool>> CreateUser(
-            [FromBody] CreateUserDTO createUserDTO,
-            CancellationToken cancellationToken = default)
+        public async Task<ActionResult<bool>> CreateUser([FromHeader] string apiKey, [FromBody] CreateUserDTO createUserDTO, CancellationToken cancellationToken = default)
         {
             var result = default(bool);
             using (var transaction = new TransactionScope(TransactionScopeOption.Required,
@@ -77,7 +75,7 @@ namespace Tasks.API.Controllers.User
         [ProducesResponseType(typeof(Domain.Entities.User), StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult<Domain.Entities.User>> GetUser([FromRoute] Guid id, CancellationToken cancellationToken)
+        public async Task<ActionResult<Domain.Entities.User>> GetUser([FromHeader] string apiKey, [FromRoute] Guid id, CancellationToken cancellationToken)
         {
             var result = default(Domain.Entities.User);
             using (var transaction = new TransactionScope(TransactionScopeOption.Required,
@@ -98,7 +96,7 @@ namespace Tasks.API.Controllers.User
         [ProducesResponseType(typeof(Domain.Entities.User), StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult<Domain.Entities.User>> UpdateUser([FromBody] UpdateUserDTO updateUserDTO, CancellationToken cancellationToken)
+        public async Task<ActionResult<Domain.Entities.User>> UpdateUser([FromHeader] string apiKey, [FromBody] UpdateUserDTO updateUserDTO, CancellationToken cancellationToken)
         {
             var result = default(Domain.Entities.User);
             using (var transaction = new TransactionScope(TransactionScopeOption.Required,
@@ -124,7 +122,7 @@ namespace Tasks.API.Controllers.User
         [ProducesResponseType(typeof(bool), StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult<bool>> DeleteUser([FromRoute] Guid id, CancellationToken cancellationToken)
+        public async Task<ActionResult<bool>> DeleteUser([FromHeader] string apiKey, [FromRoute] Guid id, CancellationToken cancellationToken)
         {
             var result = default(bool);
             using (var transaction = new TransactionScope(TransactionScopeOption.Required,
