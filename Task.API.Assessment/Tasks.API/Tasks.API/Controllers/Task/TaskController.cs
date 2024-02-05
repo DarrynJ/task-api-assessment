@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 using System.Transactions;
 using Tasks.Application.Interfaces.Task;
 using Tasks.Application.Task.Models;
-using Tasks.Application.User.Models;
 using Tasks.Domain.Common.Interfaces;
 
 namespace Tasks.API.Controllers.Task
@@ -183,7 +182,7 @@ namespace Tasks.API.Controllers.Task
         [ProducesResponseType(typeof(Domain.Entities.Task), StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult<Domain.Entities.Task>> UpdateUser([FromHeader] string apiKey, [FromBody] UpdateTaskDTO updateTaskDTO, CancellationToken cancellationToken)
+        public async Task<ActionResult<Domain.Entities.Task>> UpdateTask([FromHeader] string apiKey, [FromBody] UpdateTaskDTO updateTaskDTO, CancellationToken cancellationToken)
         {
             var result = default(Domain.Entities.Task);
             using (var transaction = new TransactionScope(TransactionScopeOption.Required,
@@ -209,7 +208,7 @@ namespace Tasks.API.Controllers.Task
         [ProducesResponseType(typeof(bool), StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult<bool>> DeleteUser([FromHeader] string apiKey, [FromRoute] Guid id, CancellationToken cancellationToken)
+        public async Task<ActionResult<bool>> DeleteTask([FromHeader] string apiKey, [FromRoute] Guid id, CancellationToken cancellationToken)
         {
             var result = default(bool);
             using (var transaction = new TransactionScope(TransactionScopeOption.Required,
