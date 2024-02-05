@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -37,6 +38,22 @@ namespace Tasks.API
             app.UseHttpsRedirection();
             app.UseRouting();
             app.UseAuthorization();
+            app.Use(async (context, next) =>
+            {
+                var apiKey = context.Request.Headers["apiKey"];
+                var route = context.Request.Path.ToString();
+
+                if (string.IsNullOrWhiteSpace(apiKey) && route.IndexOf("login") < 0)
+                {
+                    context.Response.StatusCode = StatusCodes.Status401Unauthorized;
+                    await context.Response.WriteAsync("Unauthorized");
+                    return;
+                }
+
+                // TODO - Implement logic that will verify apiKey (perhaps refactor)
+
+                await next();
+            });
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();

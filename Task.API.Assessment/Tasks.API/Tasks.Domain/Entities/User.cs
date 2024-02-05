@@ -15,7 +15,7 @@ namespace Tasks.Domain.Entities
             EmailAddress = emailAddress;
             Password = password;
 
-            ApiKey = $"API-{Guid.NewGuid().ToString().Replace('-', ' ').Trim()}_{DateTime.Now:yyyy-mm-dd}";
+            ApiKey = $"API-{Guid.NewGuid().ToString().Replace('-', '_').Trim()}_{DateTime.Now:yyyy-mm-dd}";
         }
 
         public Guid Id { get; set; }
