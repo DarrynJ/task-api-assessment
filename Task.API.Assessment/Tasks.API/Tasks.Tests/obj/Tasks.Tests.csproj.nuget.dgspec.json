@@ -4,14 +4,79 @@
     "C:\\Users\\Darryn\\source\\repos\\task-api-assessment\\Task.API.Assessment\\Tasks.API\\Tasks.Tests\\Tasks.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Darryn\\source\\repos\\task-api-assessment\\Task.API.Assessment\\Tasks.API\\Tasks.Tests\\Tasks.Tests.csproj": {
+    "C:\\Users\\Darryn\\source\\repos\\task-api-assessment\\Task.API.Assessment\\Tasks.API\\Tasks.Application\\Tasks.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Darryn\\source\\repos\\task-api-assessment\\Task.API.Assessment\\Tasks.API\\Tasks.Tests\\Tasks.Tests.csproj",
-        "projectName": "Tasks.Tests",
-        "projectPath": "C:\\Users\\Darryn\\source\\repos\\task-api-assessment\\Task.API.Assessment\\Tasks.API\\Tasks.Tests\\Tasks.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\Darryn\\source\\repos\\task-api-assessment\\Task.API.Assessment\\Tasks.API\\Tasks.Application\\Tasks.Application.csproj",
+        "projectName": "Tasks.Application",
+        "projectPath": "C:\\Users\\Darryn\\source\\repos\\task-api-assessment\\Task.API.Assessment\\Tasks.API\\Tasks.Application\\Tasks.Application.csproj",
         "packagesPath": "C:\\Users\\Darryn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Darryn\\source\\repos\\task-api-assessment\\Task.API.Assessment\\Tasks.API\\Tasks.Tests\\obj\\",
+        "outputPath": "C:\\Users\\Darryn\\source\\repos\\task-api-assessment\\Task.API.Assessment\\Tasks.API\\Tasks.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Darryn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Darryn\\source\\repos\\task-api-assessment\\Task.API.Assessment\\Tasks.API\\Tasks.Domain\\Tasks.Domain.csproj": {
+                "projectPath": "C:\\Users\\Darryn\\source\\repos\\task-api-assessment\\Task.API.Assessment\\Tasks.API\\Tasks.Domain\\Tasks.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Darryn\\source\\repos\\task-api-assessment\\Task.API.Assessment\\Tasks.API\\Tasks.Domain\\Tasks.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Darryn\\source\\repos\\task-api-assessment\\Task.API.Assessment\\Tasks.API\\Tasks.Domain\\Tasks.Domain.csproj",
+        "projectName": "Tasks.Domain",
+        "projectPath": "C:\\Users\\Darryn\\source\\repos\\task-api-assessment\\Task.API.Assessment\\Tasks.API\\Tasks.Domain\\Tasks.Domain.csproj",
+        "packagesPath": "C:\\Users\\Darryn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Darryn\\source\\repos\\task-api-assessment\\Task.API.Assessment\\Tasks.API\\Tasks.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Darryn\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,10 +104,88 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Darryn\\source\\repos\\task-api-assessment\\Task.API.Assessment\\Tasks.API\\Tasks.Tests\\Tasks.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Darryn\\source\\repos\\task-api-assessment\\Task.API.Assessment\\Tasks.API\\Tasks.Tests\\Tasks.Tests.csproj",
+        "projectName": "Tasks.Tests",
+        "projectPath": "C:\\Users\\Darryn\\source\\repos\\task-api-assessment\\Task.API.Assessment\\Tasks.API\\Tasks.Tests\\Tasks.Tests.csproj",
+        "packagesPath": "C:\\Users\\Darryn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Darryn\\source\\repos\\task-api-assessment\\Task.API.Assessment\\Tasks.API\\Tasks.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Darryn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Darryn\\source\\repos\\task-api-assessment\\Task.API.Assessment\\Tasks.API\\Tasks.Application\\Tasks.Application.csproj": {
+                "projectPath": "C:\\Users\\Darryn\\source\\repos\\task-api-assessment\\Task.API.Assessment\\Tasks.API\\Tasks.Application\\Tasks.Application.csproj"
+              },
+              "C:\\Users\\Darryn\\source\\repos\\task-api-assessment\\Task.API.Assessment\\Tasks.API\\Tasks.Domain\\Tasks.Domain.csproj": {
+                "projectPath": "C:\\Users\\Darryn\\source\\repos\\task-api-assessment\\Task.API.Assessment\\Tasks.API\\Tasks.Domain\\Tasks.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
+            "AutoFixture": {
+              "target": "Package",
+              "version": "[4.18.1, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.12.0, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.6.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
+            },
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[5.1.0, )"
             },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
