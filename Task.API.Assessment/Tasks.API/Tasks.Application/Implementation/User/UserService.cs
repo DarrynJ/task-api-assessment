@@ -25,7 +25,7 @@ namespace Tasks.Application.Implementation.User
                 throw new Exception($"Invalid user credentials");
             }
 
-            return existingUser.Username;
+            return existingUser.ApiKey;
         }
 
         public async Task<bool> CreateUser(string username, string emailAddress, string password, CancellationToken cancellationToken)
