@@ -57,6 +57,27 @@ namespace Tasks.Application.Implementation.Task
             return assigneeTasks;
         }
 
+        public async Task<List<Domain.Entities.Task>> GetAllExpiredTasks(CancellationToken cancellationToken)
+        {
+            var expiredTasks = await _taskRepository.FindAllAsync(x => x.DueDate < DateTime.Now, cancellationToken);
+            
+            return expiredTasks;
+        }
+
+        public async Task<List<Domain.Entities.Task>> GetAllActiveTasks(CancellationToken cancellationToken)
+        {
+            var activeTasks = await _taskRepository.FindAllAsync(x => x.DueDate >= DateTime.Now, cancellationToken);
+
+            return activeTasks;
+        }
+
+        public async Task<List<Domain.Entities.Task>> GetAllTasksFromDate(DateTime date, CancellationToken cancellationToken)
+        {
+            var tasksFromDate = await _taskRepository.FindAllAsync(x => x.DueDate >= date, cancellationToken);
+
+            return tasksFromDate;
+        }
+
         public async Task<Domain.Entities.Task> GetTask(Guid id, CancellationToken cancellationToken)
         {
             var existingTask = await _taskRepository.FindAsync(x => x.Id == id, cancellationToken);

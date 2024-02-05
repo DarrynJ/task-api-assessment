@@ -12,6 +12,9 @@ namespace Tasks.Application.Interfaces.Task
         Task<Domain.Entities.Task> GetTask(Guid id, CancellationToken cancellationToken);
         Task<List<Domain.Entities.Task>> GetAllTasks(CancellationToken cancellationToken);
         Task<List<Domain.Entities.Task>> GetAllAssigneeTasks(Guid assigneeId, CancellationToken cancellationToken);
+        Task<List<Domain.Entities.Task>> GetAllExpiredTasks(CancellationToken cancellationToken);
+        Task<List<Domain.Entities.Task>> GetAllActiveTasks(CancellationToken cancellationToken);
+        Task<List<Domain.Entities.Task>> GetAllTasksFromDate(DateTime date, CancellationToken cancellationToken);
         Task<bool> DeleteTask(Guid id, CancellationToken cancellationToken);
         Task<Domain.Entities.Task> UpdateTask(Guid id, Domain.Entities.Task task, CancellationToken cancellationToken);
     }
