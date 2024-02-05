@@ -114,6 +114,69 @@ namespace Tasks.API.Controllers.Task
 
         /// <summary>
         /// </summary>
+        /// <response code="200">Successfully retrieved task.</response>
+        /// <response code="400">One or more validation errors have occurred.</response>
+        [HttpGet("api/tasks/expired")]
+        [ProducesResponseType(typeof(List<Domain.Entities.Task>), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status500InternalServerError)]
+        public async Task<ActionResult<List<Domain.Entities.Task>>> GetAllExpiredTasks([FromHeader] string apiKey, CancellationToken cancellationToken)
+        {
+            var result = default(List<Domain.Entities.Task>);
+            using (var transaction = new TransactionScope(TransactionScopeOption.Required,
+                new TransactionOptions() { IsolationLevel = IsolationLevel.ReadCommitted }, TransactionScopeAsyncFlowOption.Enabled))
+            {
+                result = await _appService.GetAllExpiredTasks(cancellationToken);
+                transaction.Complete();
+            }
+
+            return Ok(result);
+        }
+
+        /// <summary>
+        /// </summary>
+        /// <response code="200">Successfully retrieved task.</response>
+        /// <response code="400">One or more validation errors have occurred.</response>
+        [HttpGet("api/tasks/active")]
+        [ProducesResponseType(typeof(List<Domain.Entities.Task>), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status500InternalServerError)]
+        public async Task<ActionResult<List<Domain.Entities.Task>>> GetAllActiveTasks([FromHeader] string apiKey, CancellationToken cancellationToken)
+        {
+            var result = default(List<Domain.Entities.Task>);
+            using (var transaction = new TransactionScope(TransactionScopeOption.Required,
+                new TransactionOptions() { IsolationLevel = IsolationLevel.ReadCommitted }, TransactionScopeAsyncFlowOption.Enabled))
+            {
+                result = await _appService.GetAllActiveTasks(cancellationToken);
+                transaction.Complete();
+            }
+
+            return Ok(result);
+        }
+
+        /// <summary>
+        /// </summary>
+        /// <response code="200">Successfully retrieved task.</response>
+        /// <response code="400">One or more validation errors have occurred.</response>
+        [HttpGet("api/tasks/from/{date}")]
+        [ProducesResponseType(typeof(List<Domain.Entities.Task>), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status500InternalServerError)]
+        public async Task<ActionResult<List<Domain.Entities.Task>>> GetAllTasksFromDate([FromHeader] string apiKey, [FromRoute] DateTime date, CancellationToken cancellationToken)
+        {
+            var result = default(List<Domain.Entities.Task>);
+            using (var transaction = new TransactionScope(TransactionScopeOption.Required,
+                new TransactionOptions() { IsolationLevel = IsolationLevel.ReadCommitted }, TransactionScopeAsyncFlowOption.Enabled))
+            {
+                result = await _appService.GetAllTasksFromDate(date, cancellationToken);
+                transaction.Complete();
+            }
+
+            return Ok(result);
+        }
+
+        /// <summary>
+        /// </summary>
         /// <response code="200">Successfully updated task.</response>
         /// <response code="400">One or more validation errors have occurred.</response>
         [HttpPut("api/tasks")]
